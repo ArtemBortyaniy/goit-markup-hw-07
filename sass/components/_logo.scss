@@ -1,0 +1,32 @@
+.nav-list {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        font-weight: 700;   
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: $accentColor;
+    }
+
+    &__logo--logo {
+        color: $blackColor;
+    }
+
+    &__logo--font {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    &__logo--margin-right {
+        margin-right: 93px;
+    }
+
+    &__logo--margin-right-140 {
+        margin-right: 140px;
+    }
+}
+
+.nav-list__logo--white {
+    color: $white-text-color;
+}

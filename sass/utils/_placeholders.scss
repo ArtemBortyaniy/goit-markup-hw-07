@@ -1,0 +1,81 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    font-family: "Roboto", sans-serif; 
+    background-color: $white-text-color;
+    color: $basic-text-color;
+    padding-top: 80px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-features {
+    padding-top: 94px;
+    padding-bottom: 116px;
+}
+
+.no-padding-top {
+    padding-top: 0px;
+}
+
+.footer {
+    background-color: $background-color-footer;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.div-conaiter {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
